@@ -7,7 +7,9 @@ class Quote extends Component {
 
   async componentDidMount() {
     try {
-      const response = await fetch("https://api.chucknorris.io/jokes/random");
+      const response = await fetch(
+        "https://api.chucknorris.io/jokes/random?category=history"
+      );
       const data = await response.json();
       this.setState({
         quote: data.value
