@@ -7,8 +7,10 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
-      <h1>Chuck Quotes!</h1>
-      <Quote />
+      <h1 className="chuck">Chuck Quotes!</h1>
+      <h2 className="quote">
+        <Quote />
+      </h2>
     </div>
   );
 }

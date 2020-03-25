@@ -1,4 +1,12 @@
 .App {
-  font-family: sans-serif;
+  font-family: "karate", sans-serif;
   text-align: center;
+}
+.chuck {
+  font-size: 80px;
+  text-decoration: underline;
+}
+
+.quote {
+  font-size: 40px;
 }
